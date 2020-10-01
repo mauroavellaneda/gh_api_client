@@ -10,6 +10,6 @@ describe('Users can see GH search', () => {
         cy.visit("/");
     })
     it('user can see list of searches', () => {
-        cy.get(#'display-searches').should('exist')
+        cy.get('#displaysearches').should('exist');
     } )
 })
