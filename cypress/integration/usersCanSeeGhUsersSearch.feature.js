@@ -3,7 +3,7 @@ describe('Users can see GH search', () => {
         cy.server();
         cy.route({
             method: "GET",
-            url: "http://localhost:3000/api/v1/products",
+            url: "https://api.github.com/search/users",
             response: "fixture:users_search_index.json",
 
         });
