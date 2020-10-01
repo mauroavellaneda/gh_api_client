@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { fetchGhData } from '../modules/fetchGhData'
 
 class DisplaySearches extends Component {
     state = {
